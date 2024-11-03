@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto ;
+    width: 100vh;
+    height: 100vh;
+
+}
+
+
+
+table{  
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    
+}
+
+p{
+    margin: 10px 0;
+}
+
+table:nth-of-type(1) td:nth-child(odd) span{
+    background-color: green;
+    display: block;
+    padding: 10px;
+}
+
+table:nth-of-type(2) td:nth-child(odd) span{
+    background-color: green;
+    padding: 10px;
+    display: block;
+}
+
+table:nth-of-type(3) td:nth-child(1) span,
+table:nth-of-type(3) td:nth-child(4) span, 
+table:nth-of-type(3) td:nth-child(6) span,
+table:nth-of-type(3) td:nth-child(8) span{
+    background-color: green;
+    display: block;
+    padding: 10px;
+} 
